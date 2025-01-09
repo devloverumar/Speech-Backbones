@@ -1,0 +1,2 @@
+This is partial audio deepfake.
+This is Grad-TTS model setup for multi-speaker.

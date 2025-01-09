@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            // "args": [
+            //     "-b", "24",
+            //     "-w", "16",
+                // "-f", "./sample_text.txt",          // Path to the file containing texts to synthesize
+                // "-c", "./checkpts/grad-tts-libri-tts.pt",  // Path to the Grad-TTS checkpoint
+                // "-t", "10",                        // Number of timesteps for reverse diffusion
+                // "-s", "0"                          // Speaker ID for a multispeaker model
+            // ],
+            "python": "/home/umflint.edu/mufarooq/miniconda3/envs/gradtts/bin/python" // Update to the Python binary for gradtts environment
+        }
+    ]
+}

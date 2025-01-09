@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./Grad_TTS/hifi-gan"
+    ]
+}
