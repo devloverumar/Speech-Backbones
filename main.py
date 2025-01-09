@@ -110,7 +110,7 @@ def main(batch_size, num_workers, device_id):
     # import datetime
     model_name = "Grad_tts"
     dataset = "ASVspoof"
-    data_split = "TRAIN"
+    data_split = "TEST"
     # time_now = datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
     save_dir_path = f"{model_name}_{dataset}_{data_split}"
     audios_path = os.path.join(save_dir_path,"audios")
